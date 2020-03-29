@@ -1,0 +1,94 @@
+body {
+    background-color: #222;
+    color: #ffffff;
+    margin: 0;
+}
+.logo {
+    padding: 16px 48px;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo img {
+    margin-right: auto;
+}
+.logo .primary{
+    margin-right: 20px;
+    margin-top: -2px;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.portada{
+    display: flex;
+    justify-content: start;
+}
+.bienvenido{
+    background-color: black;
+    padding: 50px 67.43px;
+}
+.portada h1 {
+font-family: Arial, sans-serif;
+font-size: 42.5px;
+}
+
+.portada h2 {
+    font-family: Arial, sans-serif;
+    font-size: 21px;  
+}
+.free {
+    background-color: #0f79af;
+    color: white;
+    border: 0;
+    padding: 16px 18px 16px;
+    margin-top: 48px;
+}
+.niños {
+    display: flex;
+    background-color: black;
+}
+.niños h1{
+    font-family: Arial, sans-serif;
+    font-size: 42.5px; 
+}
+.niños h2 {
+    font-family: Arial, sans-serif;
+    font-size: 21px; 
+}
+.todos {
+    padding: 50px 67.43px;
+}
+.dispositivos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 60px 67.43px;
+    text-align: center;
+}
+.dispositivos h1 {
+    font-size: 36px;
+}
+.dispositivos h2 {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.footer {
+    text-align: center;
+    padding: 24px;
+}
+.footer a {
+text-decoration: none;
+font-size: 15px;
+color: #0f79af;
+padding: 4px;
+}
+.footer span {
+    font-size: 15px;
+}
